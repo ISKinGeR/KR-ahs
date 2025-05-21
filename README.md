@@ -12,10 +12,12 @@ To work with to `Mythic-Properties` as MLO/REAL Houses system!
 # **Installation:**
 - download `KR-ahs` and ensure it in the config
 - go to `mythic-phone\client\apps\homemanage.lua` and replace it with [THIS](https://gist.github.com/ISKinGeR/53e04b3243ced8202ec2d5aab3b06996#file-homemanage-lua)
+- edit `RetrieveComponents` in `mythic-phone\client\main.lua` and like [THIS](https://gist.github.com/ISKinGeR/53e04b3243ced8202ec2d5aab3b06996#file-mythic-phone_main-lua)
 - go to `mythic-phone\ui\src\Apps\homemanage\pages\Upgrades.jsx` and replace it with [THIS](https://gist.github.com/ISKinGeR/53e04b3243ced8202ec2d5aab3b06996#file-upgrades-jsx)
 - rebuild the phone after edit Upgrades.jsx
 - edit `CheckRestriction` in `mythic-doors\client\client.lua` with [THIS](https://gist.github.com/ISKinGeR/53e04b3243ced8202ec2d5aab3b06996#file-mythic-door_client-lua)
 - edit `CheckPlayerAuth` in `mythic-doors\server\server.lua` with [THIS](https://gist.github.com/ISKinGeR/53e04b3243ced8202ec2d5aab3b06996#file-mythic-door_server-lua)
+- go to `mythic-properties\client\component.lua` and replace `GetNearHouse` with [THIS](https://gist.github.com/ISKinGeR/53e04b3243ced8202ec2d5aab3b06996#file-component-lua)
 
 # **Previews:**
 Previews: https://youtu.be/nNwps1uM9Dg
